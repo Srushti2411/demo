@@ -2,27 +2,147 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <title>Simple Navbar</title>
-    <style>
-    body{
-        padding: 0;
-        margin: 0;
-        background-color:#f9e6ff ;
-    }
-    </style>    
+    
+    <title>Homepage</title>
+    <link rel="stylesheet" href="/css/index.css">
+    
 </head>
 <body>
+    <div class="nav">
+        <h5 class="start-line">Shop now and get gift voucher worth Rs.2000 FREE! T&C Apply.</h5>
+    </div>
+    <div class="navbar">
+        <div class="shop-name">
+            Glitzz jwellers
+        </div>
+        <div class="pages">
+            <span class="page"><a href="">Home</a></span>
+            <span class="page"><a href="/pages/necklace.html">Necklace</a></span>
+            <span class="page"><a href="/pages/">Earrings</a></span>
+            <span class="page"><a href="/pages/Bangles.HTML">Bangles</a></span>
+            <span class="page"><a href="/pages/pendant.html">Pendant</a></span>
+            <span class="page"><a href="/pages/bestseller.html">Bestseller</a></span>
+            <span class="page"><a href="/pages/about.html">About</a></span>
+        </div>
+        <div class="icons">
+            <img src="/img/icons8-search-50.png" class="icon">
+            <a href="/pages/login.html"><img src="/img/icons8-person-female-24.png" class="icon"></a> 
+            <img src="/img/icons8-heart-32.png" class="icon">
+            <img src="/img/shopping-bag.png" class="icon">
+        </div>
+    </div>
+    <div class="main_img">
+        <img src="/img/main_img2.webp" alt="jewelry Shop image" class="img"/>
+    </div>
+
+
+    <div class="jewelry_cards">
+
+        <div class="card">
+            <h1 class="card_heading"><a href="">Necklace</a></h1>
+            <img src="/img/necklace.jpeg" class="card_img">
+            <p class="desc">Rose Gold Deer Heart Necklace
+                (4.7 | 58)
+                MADE WITH 925 SILVER 
+                Regular price
+                ₹1899.00
+                MRP <del>₹3799.00</del> (Incl. of all taxes)
+            </p>
+        </div>
+
+        <div class="card">
+            <h1 class="card_heading"><a href="">Earrings</a></h1>
+            <img src="/img/earrings.jpeg" class="card_img">
+            <p class="desc">
+                Silver Zircon Drizzle Drop Earrings
+                (4.9 | 101)
+                MADE WITH 925 SILVER
+                Regular price
+                ₹1499.00
+                MRP <del>₹2999.00 </del>  (Incl. of all taxes)
+            </p>
+            
+        </div> 
+
+        <div class="card">
+            <h1 class="card_heading"><a href="">Bangles</a></h1>
+            <img src="/img/bangle.jpeg" class="card_img">
+            <p class="desc">
+                 Rose Gold Forever Bangle
+                (5.0 | 3)
+                MADE WITH 925 SILVER
+                Regular price
+                ₹2899.00
+                MRP <del> ₹5799.00</del> (Incl. of all taxes)
+            </p>
+            
+        </div>
+
+        <div class="card">
+            <h1 class="card_heading"><a href="">Pendant</a></h1> 
+            <img src="/img/pendent.jpeg" class="card_img">
+            <p class="desc">
+                Rose Gold Terrific Trio Necklace
+                (4.9 | 13)
+                MADE WITH 925 SILVER
+                Regular price
+                ₹2499.00
+                MRP <del>₹4999.00 </del>(Incl. of all taxes)
+            </p>
+            
+        </div>
+
+    </div>
     
-    <ul class="navbar">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#gold">Gold</a></li>
-        <li><a href="#platinum">Platinum</a></li>
-        <li><a href="#silver">Silver</a></li>
-        <li><a href="#diamond">Diamond</a></li>
-        <li><a href="#bestseller">BestSeller</a></li>
-    </ul>
+
+    <div class="main-dropdown">
+
+        <h4 class="section-title">PRODUCT TYPE:</h4>
+        <select class="custom-dropdown" id="product-type">
+            <option value="Necklace">Necklace</option>
+            <option value="Earrings">Earrings</option>
+            <option value="Bangles">Bangles</option>
+            <option value="Pendant">Pendant</option>
+        </select>
+    
+        <h4 class="section-title">PRICE:</h4>
+        <select class="custom-dropdown" id="price">
+            <option value="HIGHER TO LOWER">Higher to Lower</option>
+            <option value="LOWER TO HIGHER">Lower To Higher</option>
+        </select>
+    
+        <h4 class="section-title">STONE:</h4>
+        <select class="custom-dropdown" id="stone">
+            <option value="Colored Stone">None</option>
+            <option value="None">Colored stoned</option>
+        </select>
+    
+        <h4 class="section-title">COLOR:</h4>
+        <select class="custom-dropdown" id="color">
+            <option value="Gold">Gold</option>
+            <option value="Rose Gold">Rose Gold</option>
+            <option value="Silver">Silver</option>
+            <option value="Oxidised Silver">Oxidised Silver</option>
+        </select>
+    
+        <h4 class="section-title">STYLE:</h4>
+        <select class="custom-dropdown" id="style">
+            <option value="Everyday">Everyday</option>
+            <option value="Office">Office</option>
+            <option value="Party">Party</option>
+            <option value="Traditional">Traditional</option>
+            <option value="Wedding">Wedding</option>
+        </select>
+    </div>
+    
+    <div class="pendent_cards">
+        <h1 class="Giva-heading">GIVA   Essentials</h1>
+        <div class="jewelry_img">
+            <img src="/img/pure_Gold.jpeg" class="jwel_img">
+            <img src="/img/pure_silver.jpeg" class="jwel_img">
+        </div>
+    </div>
+
+
 </body>
 </html>
